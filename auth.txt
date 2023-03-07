@@ -1,0 +1,13 @@
+https://sf.redtone.com/phpadmin__/index.php
+host : 10.80.10.5
+id : durian
+pass : P@ssw0rd2288
+
+
+server
+
+
+10.80.10.24
+
+user:administrator 
+pwd: KKbelanjaDURIAN.123
