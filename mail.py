@@ -1,10 +1,12 @@
 import smtplib, ssl
-port = 587  # For SSL
-smtp_server = "mail.redtone.com"
-sender_email = "frim@biz.redtone.com"  # Enter your address
-password = '6elk@hkU'
+import models, settings
+
+port = settings.port
+smtp_server = settings.smtp_server
+sender_email = settings.sender_email  # Enter your address
+password =settings.sender_password
 theme = "FRIM Notification"
-sender = "noreply_frim@redtone.com"
+sender =settings.sender
 
 receiver_email = 'ainur.fadzil@redtone.com'  # Enter receiver address
 
