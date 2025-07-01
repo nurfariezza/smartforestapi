@@ -1,2 +1,3 @@
 #for credential setting
 setting.py
+.env
