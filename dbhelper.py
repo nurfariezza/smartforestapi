@@ -8,7 +8,7 @@ def disposedb(con, cur):
         con.close()
 
 def initdb():
-    con = mysql.connector.connect(host='10.80.10.39', user='frim', password='P@ssw0rd2288',  database='FRIM')
+    con = mysql.connector.connect(host='####', user='##', password='##',  database='##')
     cur = con.cursor()
     return con, cur
 
